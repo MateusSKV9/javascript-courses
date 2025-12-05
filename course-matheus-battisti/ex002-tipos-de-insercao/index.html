@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tipos de Inserção de Script</title>
+	</head>
+	<body>
+		<script>
+			const p1 = document.createElement("p");
+			p1.textContent = "Script interno";
+			document.body.appendChild(p1);
+		</script>
+
+		<script src="script-externo.js" defer></script>
+	</body>
+</html>
