@@ -16,6 +16,6 @@
 
 ## 📋 Lista de cursos
 
-| Status | Nº  |      Curso       |                                          Repositório                                          | Deploy |
-| :----: | :-: | :--------------: | :-------------------------------------------------------------------------------------------: | :----: |
-|   ✅   |  1  | Matheus Battisti | [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/course-matheus-battisti) |   -    |
+| Status | Nº  |      Curso       |                                              Deploy                                               |                                          Repositório                                          |
+| :----: | :-: | :--------------: | :-----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
+|   ✅   |  1  | Matheus Battisti | [Acessar](https://mateusskv9.github.io/javascript-courses/course-matheus-battisti/ex049-project/) | [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/course-matheus-battisti) |
