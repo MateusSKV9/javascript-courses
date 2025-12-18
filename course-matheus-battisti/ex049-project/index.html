@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Do JavaScript</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<h1>Gerenciador de tarefas</h1>
+
+			<sction class="section-new-task">
+				<h2>Adicionar nova tarefa</h2>
+				<form>
+					<div class="form-group">
+						<input
+							type="text"
+							name="TaskTitle"
+							id="iTaskTitle"
+							title="Adicionar tarefa"
+							placeholder="Adicionar nova tarefa..."
+						/>
+						<button id="btnAddTask" type="submit">+</button>
+					</div>
+				</form>
+			</sction>
+
+			<section class="section-tasks">
+				<h2>Suas tarefas</h2>
+
+				<article id="container-tasks">
+					<template id="task-template">
+						<article class="task">
+							<span></span>
+							<div class="container-options">
+								<button class="btnCheck" type="button">✅</button>
+								<button class="btnDelete" type="button">❌</button>
+							</div>
+						</article>
+					</template>
+				</article>
+			</section>
+		</main>
+		<script src="script.js" defer></script>
+	</body>
+</html>
