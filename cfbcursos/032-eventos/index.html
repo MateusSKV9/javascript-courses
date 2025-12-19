@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>eventos</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>eventos</h1>
+
+		<div class="container">
+			<div class="box" onmouseover="changeColor(this, 'red')" onmouseout="changeColor(this, 'white')"></div>
+
+			<div class="box" onmouseenter="changeColor(this, 'green')" onmouseleave="changeColor(this, 'white')"></div>
+
+			<div id="boxHour" class="box"></div>
+		</div>
+
+		<div class="container">
+			<button id="btnChange" type="button" onclick="changeAllColor(document.querySelectorAll('.box'))">
+				Mudar cor!
+			</button>
+
+			<button id="btnRandom" onmouseover="changePosition(this)" type="button">Clique aqui!</button>
+
+			<button id="btnShowHour" onclick="showHour(document.querySelector('#boxHour'))" type="button">
+				Informar hora
+			</button>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
