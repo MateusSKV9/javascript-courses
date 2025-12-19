@@ -19,4 +19,6 @@
 | Status | Nº  |      Curso       |                                              Deploy                                               |                                          Repositório                                          |
 | :----: | :-: | :--------------: | :-----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
 |   ✅   |  1  | Matheus Battisti | [Acessar](https://mateusskv9.github.io/javascript-courses/course-matheus-battisti/ex049-project/) | [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/course-matheus-battisti) |
-|   🚧   |  2  | CFBCursos  | - | [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/course-cfbcursos) |
+|   ⭕   |  2  |   CFBCursos 01   |                                                 -                                                 |   [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/course-cfbcursos-01)   |
+|   🚧   |  3  |   CFBCursos 02   |                                                 -                                                 |   [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/course-cfbcursos-02)   |
+|   -    |  4  |    W3Schools     |                                                 -                                                 |        [Acessar](https://github.com/MateusSKV9/javascript-courses/tree/main/w3schools)        |
